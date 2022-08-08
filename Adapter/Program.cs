@@ -9,6 +9,5 @@ var serviceProvider = new ServiceCollection()
             .AddSingleton<IPrinter, Printer>()
             .BuildServiceProvider();
 
-
 var printer = serviceProvider.GetService<IPrinter>();
 printer!.Print(serviceProvider.GetService<IContainer<string>>()!);
