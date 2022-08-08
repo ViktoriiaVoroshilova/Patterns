@@ -1,15 +1,16 @@
-﻿using Adapter.Elements;
-using AutoFixture;
+﻿using AutoFixture;
+
+namespace Adapter.Elements;
 
 internal class Elements<T> : IElements<T>
 {
     public Elements()
     {
-        elements = _fixture.CreateMany<T>();
+        _elements = _fixture.CreateMany<T>();
     }
 
-    public IEnumerable<T> GetElements() => elements;
+    public IEnumerable<T> GetElements() => _elements;
 
-    private readonly IEnumerable<T> elements;
+    private readonly IEnumerable<T> _elements;
     private readonly Fixture _fixture = new();
 }
