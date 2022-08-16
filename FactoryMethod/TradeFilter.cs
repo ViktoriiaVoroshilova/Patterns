@@ -1,8 +1,8 @@
-﻿using AbstractFactory.Filters;
+﻿using FactoryMethod.Filters;
 
-namespace AbstractFactory
+namespace FactoryMethod
 {
-    public class TradeFilter
+    internal class TradeFilter
     {
         public TradeFilter(IFilterCreator filterCreator)
         {

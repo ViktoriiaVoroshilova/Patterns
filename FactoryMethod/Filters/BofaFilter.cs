@@ -1,6 +1,6 @@
-﻿namespace AbstractFactory.Filters
+﻿namespace FactoryMethod.Filters
 {
-    public class BofaFilter : IFilter
+    internal class BofaFilter : IFilter
     {
         public IEnumerable<Trade> Match(IEnumerable<Trade> trades)
         {

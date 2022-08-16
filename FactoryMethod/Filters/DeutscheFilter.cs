@@ -1,4 +1,4 @@
-﻿namespace AbstractFactory.Filters
+﻿namespace FactoryMethod.Filters
 {
     internal class DeutscheFilter : IFilter
     {

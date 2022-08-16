@@ -1,6 +1,6 @@
-﻿namespace AbstractFactory.Filters
+﻿namespace FactoryMethod.Filters
 {
-    public interface IFilter
+    internal interface IFilter
     {
         IEnumerable<Trade> Match(IEnumerable<Trade> trades);
     }

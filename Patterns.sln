@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentSystemService", "Pay
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvoiceSystemService", "InvoiceSystem\InvoiceSystemService.csproj", "{BE70B9DD-A359-4D02-88F7-F65CEF6C63EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{54ED42C1-D9EF-48C3-A933-642C6DC02968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{99256BEC-DBC8-4FB5-8A3C-5E05A9DC8FEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{BE70B9DD-A359-4D02-88F7-F65CEF6C63EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE70B9DD-A359-4D02-88F7-F65CEF6C63EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE70B9DD-A359-4D02-88F7-F65CEF6C63EA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{54ED42C1-D9EF-48C3-A933-642C6DC02968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54ED42C1-D9EF-48C3-A933-642C6DC02968}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54ED42C1-D9EF-48C3-A933-642C6DC02968}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54ED42C1-D9EF-48C3-A933-642C6DC02968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99256BEC-DBC8-4FB5-8A3C-5E05A9DC8FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99256BEC-DBC8-4FB5-8A3C-5E05A9DC8FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99256BEC-DBC8-4FB5-8A3C-5E05A9DC8FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99256BEC-DBC8-4FB5-8A3C-5E05A9DC8FEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

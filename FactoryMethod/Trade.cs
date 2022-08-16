@@ -1,6 +1,6 @@
-﻿namespace AbstractFactory
+﻿namespace FactoryMethod
 {
-    public class Trade
+    internal class Trade
     {
         public int Amount { get; set; }
 

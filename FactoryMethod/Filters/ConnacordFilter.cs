@@ -1,6 +1,6 @@
-﻿namespace AbstractFactory.Filters
+﻿namespace FactoryMethod.Filters
 {
-    public class ConnacordFilter : IFilter
+    internal class ConnacordFilter : IFilter
     {
         public IEnumerable<Trade> Match(IEnumerable<Trade> trades)
         {

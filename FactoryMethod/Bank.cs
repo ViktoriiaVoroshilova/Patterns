@@ -1,6 +1,6 @@
-﻿namespace AbstractFactory
+﻿namespace FactoryMethod
 {
-    public enum Bank
+    internal enum Bank
     {
         Bofa,
         Connacord,
