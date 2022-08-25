@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvoiceSystemService", "Inv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{99256BEC-DBC8-4FB5-8A3C-5E05A9DC8FEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryRestaurant", "AbstractFactoryRestaurant\AbstractFactoryRestaurant.csproj", "{8CB6C445-E835-4D2A-84E0-E30B9E6605FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{99256BEC-DBC8-4FB5-8A3C-5E05A9DC8FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99256BEC-DBC8-4FB5-8A3C-5E05A9DC8FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99256BEC-DBC8-4FB5-8A3C-5E05A9DC8FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB6C445-E835-4D2A-84E0-E30B9E6605FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB6C445-E835-4D2A-84E0-E30B9E6605FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB6C445-E835-4D2A-84E0-E30B9E6605FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB6C445-E835-4D2A-84E0-E30B9E6605FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
