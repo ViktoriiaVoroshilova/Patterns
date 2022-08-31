@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryRestaurant", "AbstractFactoryRestaurant\AbstractFactoryRestaurant.csproj", "{8CB6C445-E835-4D2A-84E0-E30B9E6605FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationFactory", "ValidationFactory\ValidationFactory.csproj", "{D8D548A1-1C35-4CDC-9888-2A7D86024470}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidationFactory", "ValidationFactory\ValidationFactory.csproj", "{D8D548A1-1C35-4CDC-9888-2A7D86024470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{06958F1F-690C-44E6-A10F-27BDBB37A631}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{D8D548A1-1C35-4CDC-9888-2A7D86024470}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8D548A1-1C35-4CDC-9888-2A7D86024470}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8D548A1-1C35-4CDC-9888-2A7D86024470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06958F1F-690C-44E6-A10F-27BDBB37A631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06958F1F-690C-44E6-A10F-27BDBB37A631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06958F1F-690C-44E6-A10F-27BDBB37A631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06958F1F-690C-44E6-A10F-27BDBB37A631}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
