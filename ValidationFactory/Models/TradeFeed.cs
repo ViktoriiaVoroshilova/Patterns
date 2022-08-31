@@ -8,7 +8,7 @@
 
         public int PrincipalId { get; set; }
 
-        public int SourceAccountId { get; set; }
+        public int? SourceAccountId { get; set; }
 
         public string SourceTradeRef { get; set; } = null!;
 
